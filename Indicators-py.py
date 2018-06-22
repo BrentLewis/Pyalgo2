@@ -32,6 +32,20 @@ EMA12[]
 # .pop() Is close.. But it still won't cycle through the whole data set.. no? 
 # create seperate array in the function to isolate data and then merge the array with EMA12/26?
 
+#Simple moving average 10 day 
+def SMA10(DCP[]):
+    while len(DCP) >= 0:
+        f = (DCP[0]+ DCP[1] + DCP[2] + DCP[3] + DCP[4]) + DCP[5] + DCP[6] + DCP[7] + DCP[8] + DCP[9] / 10
+        #!!!Which one???!! - EMA12
+        SMA10.append(f)
+        DCP[] = DCP.pop(0)
+        #The .pop() will stay localized to the function, no?
+    return SMA10[]
+SMA10[]
+   #This is not the finished product. DCP( Daily closing price) need to loop through all the data sets of the DCPes
+   #figure out how to loop through, and keep the code clean. DCP[] = len(DCP) - 1 below the formula MIGHT work. Figure out if there is better alternative!!
+
+
 def EMA26(DCP[], EMA26[]):
     while len(DCP) >= 0:
         multiplier == (2 / 26 + 1)
@@ -45,17 +59,23 @@ EMA26[]
 
 #Next 3 functions are for the MACD
 ##Still need a function to go through the whole data sets
- def MACD_Line(EMA12[0], EMA26[0]):
-    a = EMA12[0] - EMA26[0]
-    return MACDL.append(a)
+ def MACD_Line(EMA12[], EMA26[]):
+     while len(EMA12) and len(EMA26) >= 0:
+         a = EMA12[0] - EMA26[0]
+         EMA12.pop(0)
+         EMA26.pop(0)
+         MACDL.append(a)
+    return MACDL[]
 MACDL[]
 
-def Signal_Line(DCP[0], MACDL[0]):
+def Signal_Line(DCP[], MACDL[]):
     while len(MACDL) >= 0:
         multiplier == (2 / 9 + 1)
         EMA = (DCP[0] - MACDL[0]) * multiplier + MACDL[0]
-        MACDL[]= len(MACDL) - 1
-        return SignalL.append(EMA)
+        DCP.pop(0)
+        MACDL.pop(0)
+        SignalL.append(EMA)
+        print signalL[]
     return SignalL[]
 SignalL[]
 
@@ -87,10 +107,10 @@ def MoneyFI(MoneyFR[]):
  
 #def Parabolic SAR():
  
-def RSI(RS[0:?, RSI[]):
+def RSI(RS[], RSI[]):
     while len(RS) >= 0:
        d = 100 - (100/(1+RS))
-       RS[] = len(RS) - 1
+       RS[] = RSI.pop(0)
        RSI.append(d)
     if RSI >= 0 and  <= 100:
         return RSI[0]
@@ -120,26 +140,14 @@ Stochastic[]
 
 def StochRSI(RSI[], LLRSI[], HHRSI[]):
     while len(RSI) >= 0:
-        e = (RSI - LLRSI) / (HHRSI - LLRSI)
+        e = (RSI[0] - LLRSI) / (HHRSI - LLRSI)
         StochRSI.append(e)
-        RSI[] = len(RSI) - 1
+        RSI[] = RSI.pop(0)
         if StochRSI[0] >= 0 and  <= 100:
             return StochRSI[]
         else:
             ValueError('error in StochRSI')
 
 StochRSI[]
-
-#Simple moving average 10 day 
-def SMA10(DCP[0:9]):
-    while len(DCP) >= 0:
-        f = (DCP[0]+ DCP[1] + DCP[2] + DCP[3] + DCP[4]) + DCP[5] + DCP[6] + DCP[7] + DCP[8] + DCP[9] / 10
-        #!!!Which one???!! - EMA12
-        SMA10.append(f)
-        DCP[] = len(DCP) - 1
-    return SMA10[]
-SMA10[]
-   #This is not the finished product. DCP( Daily closing price) need to loop through all the data sets of the DCPes
-   #figure out how to loop through, and keep the code clean. DCP[] = len(DCP) - 1 below the formula MIGHT work. Figure out if there is better alternative!!
  
 #def WilliamsR():

@@ -74,7 +74,7 @@ MoneyFR[]
 
 #Previous Average Gain
 PAGain[]
-def Average_Gain(PAGain[0], CG[0]):
+def Average_Gain(PAGain[0:13], CG[0]):
     c = (PAGain * 13 + CG) / 14 #for a 14 day period
     PAGain.append(c)
     return PAGain[]
@@ -87,9 +87,12 @@ def Average_Loss(PALoss[0], CL[0]):
     return PALoss[]
 
 #Parameter for RSI
-def RS(PAGain[0], PALoss[0]):
-    e = PAGain / PALoss
-    RS.append(e)
+def RS(PAGain[], PALoss[]):
+    while len(PAGain) and len(PALoss) >= 0:
+        e = PAGain[0] / PALoss[0]
+        RS.append(e)
+        PAGain.pop(0)
+        PALoss.pop(0)
     return RS[]
 RS[]
 
@@ -99,14 +102,14 @@ def Daily_Closing_Price():
 DCP[]
 
 #For that symbol, in that period of time
-def Lowest_Low(x, Lowest_L[0]):
+def Lowest_Low(x, Lowest_L[]):
     low = min(x) #lowest integer in x
     for Lowest_L in low:
         if Lowest_L <= x:
             low = Lowest_L
         else:
             Lowest_L = low
-    return Lowest_L.append(low)
+    return [Lowest_L[0] = low]
 #Lowest_L= lowest for the look back period
 Lowest_L[]
 
@@ -118,7 +121,7 @@ def Highest_High(x, Highest_H[0]):
             max= Highest_H
         else:
             Highest_H = max
-    return Highest_H.append(max)
+    return [Highest_H[0] = max]
 # ^^^ Do I need to slice out the previous variable in Highest_H?
 #Highest_H- Highest high for that look back period
 Highest_H[]
@@ -131,7 +134,7 @@ def Lowest_Low_RSI(RSI[], LLRSI[0]):
             low = LLRSI
         else:
             LLRSI = low
-    return LLRSI.append(low)
+    return [LLRSI[0] = low]
 LLRSI[]
 
 #Highest High for RSI in that period of time
@@ -142,20 +145,22 @@ def Highest_high_RSI(RSI[], HHRSI[0]):
             max= HHRSI
         else:
             HHRSI = max
-    return HHRSI.append(max)
+    return [HHRSI[0] = max]
 # ^^^ Do I need to slice out the previous variable in HHRSI?
 HHRSI[]
 
-def K(DCP[0], Lowest_L[0], Highest_H[0]):
-    f = (DCP - Lowest_L) / (Highest_H - Lowest_L) * 100
-    %K.append(f)
+def K(DCP[], Lowest_L[], Highest_H[]):
+    while len(DCP) >= 0:
+        f = (DCP[0] - Lowest_L) / (Highest_H - Lowest_L) * 100
+        DCP.pop(0)
+        %K.append(f)
     return %K[]
 %K[]
 
-def D(%k[0:2]):
+def D(%k[]):
     while len(%k) >= 0:
         g = (%K[0] + %K[1] + %K[2]) / 3
-        len(%K) - 1
+        %K.pop(0)
         %D.append(g)
     return %D[]
 %D[]
