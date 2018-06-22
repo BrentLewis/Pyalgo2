@@ -10,12 +10,6 @@ def Current_Gain():
 return CG.append()
 CG[]
 
-#Previous Average Gain
-PAGain[]
-def Average_Gain(PAGain[0], CG[0]):
-    (PAGain * 13 + CG) / 14 #for a 14 day period
-    return PAGain.append()
-
 
 #For that period of time. Still need to declare a function to push into the array
 def Current_Loss():
@@ -23,19 +17,78 @@ def Current_Loss():
 return CL.append()
 CL[]
 
+#unctions for MFI
+def High_Price():
+    return HPrice.append()
+HPrice[]
+
+def Low_Price():
+    return LPrice.append()
+LPrice[]
+
+def Typical_price(HPrice[], LPrice[], DCP[]):
+    a = (HPrice + LPrice + DCP) /3
+    TPrice.append(a)
+    return TPrice[]
+TPrice[]
+
+def Volume():
+    return Vol.append()
+Vol[]
+
+def Raw_Money_Flow(TPrice[], Vol[]):
+    a = TPrice * Vol
+    RMF.append(a)
+    return RMF[]
+RMF[]
+
+def Positive_Negative_Money_Flow(Tprice[]):
+    for PMF, NMF in Tprice:
+        if TPrice[a] > TPrice[b]:
+            PMF.append(TPrice[a])
+            sum(PMF)
+            return PMF[]
+        #I feel this combination doesn't work. How to add the variable to the array inside the function, then sum the array, and push the result to PMF/NMF
+        elif TPrice[a] < TPrice[b]:
+             NMF.append(TPrice[a])
+             sum(NMF)
+             return NMF[]
+        else:
+            'Do nothing'
+        break
+    break
+PMF[]
+NMF[]
+
+def Money_Flow_Ratio(PMF[], NMF[]):
+    b = PMF / NMF
+    MoneyFR.append(b)
+    return MoneyFR[]
+MoneyFR[]
+#end array/function group for MFI
+
+
 #!!!!!!!!!!!!!!!!!! If Average Loss, and gain push into the array of PA loss and Gain, how does the function know to renew?
 
+#Previous Average Gain
+PAGain[]
+def Average_Gain(PAGain[0], CG[0]):
+    c = (PAGain * 13 + CG) / 14 #for a 14 day period
+    PAGain.append(c)
+    return PAGain[]
 
 #Previous Average Loss
 PALoss[]
 def Average_Loss(PALoss[0], CL[0]):
-    (PALoss * 13 + CL) / 14 # for a 14 day period
-    return PALoss.append()
+    d = (PALoss * 13 + CL) / 14 # for a 14 day period
+    PALoss.append(d)
+    return PALoss[]
 
 #Parameter for RSI
 def RS(PAGain[0], PALoss[0]):
-    PAGain / PALoss
-    return RS.append()
+    e = PAGain / PALoss
+    RS.append(e)
+    return RS[]
 RS[]
 
 #Daily Closing Price
@@ -49,7 +102,7 @@ def Lowest_Low(x, Lowest_L[0]):
             low = Lowest_L
         else:
             Lowest_L = low
-    return Lowest_L.append()
+    return Lowest_L.append(low)
 #Lowest_L= lowest for the look back period
 Lowest_L[]
 
@@ -61,7 +114,7 @@ def Highest_High(x, Highest_H[0]):
             max= Highest_H
         else:
             Highest_H = max
-    return Highest_H.append()
+    return Highest_H.append(max)
 # ^^^ Do I need to slice out the previous variable in Highest_H?
 #Highest_H- Highest high for that look back period
 Highest_H[]
@@ -75,7 +128,7 @@ def Lowest_Low_RSI(RSI[], LLRSI[0]):
             low = LLRSI
         else:
             LLRSI = low
-    return LLRSI.append()
+    return LLRSI.append(low)
 LLRSI[]
 
 #Highest High for RSI in that period of time
@@ -86,19 +139,22 @@ def Highest_high_RSI(RSI[], HHRSI[0]):
             max= HHRSI
         else:
             HHRSI = max
-    return HHRSI.append()
+    return HHRSI.append(max)
 # ^^^ Do I need to slice out the previous variable in HHRSI?
 HHRSI[]
 
 def K(DCP[0], Lowest_L[0], Highest_H[0]):
-    (DCP - Lowest_L) / (Highest_H - Lowest_L) * 100
-    return %k.append()
-%k[]
+    f = (DCP - Lowest_L) / (Highest_H - Lowest_L) * 100
+    %K.append(f)
+    return %K[]
+%K[]
 
 def D(%k[0:2]):
-    while %k >= 0:
-        (%k[0] + %k[1] + %k[2]) / 3
-    return %D.append()
+    while len(%k) >= 0:
+        g = (%K[0] + %K[1] + %K[2]) / 3
+        len(%K) - 1
+        %D.append(g)
+    return %D[]
 %D[]
 
 stochRSI[]
