@@ -25,7 +25,7 @@ HPrice[]
 def Low_Price():
     return LPrice.append()
 LPrice[]
-
+# something like this vvv for current loss? Take a mean, or subtract from high?
 def Typical_price(HPrice[], LPrice[], DCP[]):
     a = (HPrice + LPrice + DCP) /3
     TPrice.append(a)
@@ -33,6 +33,8 @@ def Typical_price(HPrice[], LPrice[], DCP[]):
 TPrice[]
 
 def Volume():
+    #This information is mostly provided for by the exchanges.
+    #Once the code to collect the data is built, it'll just need to interact with the time periods volume
     return Vol.append()
 Vol[]
 
@@ -42,25 +44,25 @@ def Raw_Money_Flow(TPrice[], Vol[]):
     return RMF[]
 RMF[]
 
-def Positive_Negative_Money_Flow(Tprice[]):
-    for PMF, NMF in Tprice:
-        if TPrice[a] > TPrice[b]:
-            PMF.append(TPrice[a])
+def Positive_Negative_Money_Flow(TPrice[]):
+    for PMF, NMF in Tprice while len(TPrice) >= 0:
+        if TPrice[0] > TPrice[1]:
+            PMF.append(TPrice[0])
             sum(PMF)
+            TPrice.pop(0)
             return PMF[]
-        #I feel this combination doesn't work. How to add the variable to the array inside the function, then sum the array, and push the result to PMF/NMF
-        elif TPrice[a] < TPrice[b]:
-             NMF.append(TPrice[a])
+#will the sum(PMF/NMF) sum up the array and then push? Logically it seems so, but maybe I'm missing something
+        elif TPrice[0] < TPrice[1]:
+             NMF.append(TPrice[0])
              sum(NMF)
+             TPrice.pop(0)
              return NMF[]
         else:
-            'Do nothing'
-        break
-    break
+            TPrice.pop(0)
 PMF[]
 NMF[]
 
-def Money_Flow_Ratio(PMF[], NMF[]):
+def Money_Flow_Ratio(PMF[0], NMF[0]):
     b = PMF / NMF
     MoneyFR.append(b)
     return MoneyFR[]
@@ -92,6 +94,8 @@ def RS(PAGain[0], PALoss[0]):
 RS[]
 
 #Daily Closing Price
+def Daily_Closing_Price():
+    return DCP[]
 DCP[]
 
 #For that symbol, in that period of time
@@ -119,7 +123,6 @@ def Highest_High(x, Highest_H[0]):
 #Highest_H- Highest high for that look back period
 Highest_H[]
 
-RSI[]
 #Loswest Low for RSI in that period of time
 def Lowest_Low_RSI(RSI[], LLRSI[0]):
     Low = min(RSI) #smallest integer in RSI
@@ -156,9 +159,3 @@ def D(%k[0:2]):
         %D.append(g)
     return %D[]
 %D[]
-
-stochRSI[]
-
-stochastic[]
-
-SMA10[]

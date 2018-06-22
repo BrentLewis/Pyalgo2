@@ -1,6 +1,5 @@
-import numpy as np 
 import pandas as pd 
-
+import numpy as np 
 
 #Accumulation/Distribution Line
 #def ADL():
@@ -18,24 +17,27 @@ import pandas as pd
 #def DMI():
  
 #Still need a function to go through the whole data sets
-def EMA12(DCP[0], EMA12[0]):
+def EMA12(DCP[], EMA12[]):
     while len(DCP) >= 0:
         multiplier == (2 / 12 + 1)
-        EMA = (DCP[] - EMA12[0]) * multiplier + EMA12[0]
+        EMA = (DCP[0] - EMA12[0]) * multiplier + EMA12[0]
        #!!! Which one?? -SMA10
-       DCP[]= len(DCP) - 1
+       DCP[] = DCP.pop(0)
+       EMA12[] = EMA12.pop(0)
         return EMA12.append(EMA)
     return EMA12[]
 #!!!!This is not the finished product. Figre out how to cycle through the previous day, and DCP, or make multiple functions.
 EMA12[]
 
-#Still need a function to go through the whole data sets
+# .pop() Is close.. But it still won't cycle through the whole data set.. no? 
+# create seperate array in the function to isolate data and then merge the array with EMA12/26?
 
-def EMA26(DCP[0], EMA26[0]):
+def EMA26(DCP[], EMA26[]):
     while len(DCP) >= 0:
         multiplier == (2 / 26 + 1)
         EMA = (DCP[0] - EMA26[0]) * multiplier + EMA26[0]
-        DCP[]= len(DCP) - 1
+        DCP[] = DCP.pop(0)
+        EMA26[] = EMA26.pop(0)
         return EMA26.append(EMA)
     return EMA26[]
 EMA26[]
@@ -79,7 +81,7 @@ def MoneyFI(MoneyFR[]):
     if MFI[0] <= 100:
         return MFI[]
     else:
-        print('Error in Money Flow Index')
+        ValueError('Error in Money Flow Index')
  MFI[]
 #def MMA():
  
@@ -90,11 +92,11 @@ def RSI(RS[0:?, RSI[]):
        d = 100 - (100/(1+RS))
        RS[] = len(RS) - 1
        RSI.append(d)
-    if RSI <= 100:
+    if RSI >= 0 and  <= 100:
         return RSI[0]
     else:
-        print('error in RSI')
-    break 
+        ValueError('Error in RSI') 
+RSI[]
 
 #def ROC():
 
@@ -107,12 +109,12 @@ def Stochastic(%D[], %K[]):
     for 1, 2 in zip(1, 2):
         Stochastic.append(1, 2)
         Stochastic = np.array(Stochastic)
-        if Stochastic[0]<= 100:
+        if Stochastic[0] >= 0 and <= 100:
             return Stochastic[]
         else:
-            print('error in stochastic')
-        break
+            ValueError('error in stochastic')
 Stochastic[]
+
 # %D = 3-day SMA of %K
 # %K is multiplied by 100 to move the decimal point 2 places
 
@@ -121,11 +123,12 @@ def StochRSI(RSI[], LLRSI[], HHRSI[]):
         e = (RSI - LLRSI) / (HHRSI - LLRSI)
         StochRSI.append(e)
         RSI[] = len(RSI) - 1
-        if StochRSI[0] <= 100:
+        if StochRSI[0] >= 0 and  <= 100:
             return StochRSI[]
         else:
-            print('error in StochRSI')
-        break
+            ValueError('error in StochRSI')
+
+StochRSI[]
 
 #Simple moving average 10 day 
 def SMA10(DCP[0:9]):
@@ -135,6 +138,7 @@ def SMA10(DCP[0:9]):
         SMA10.append(f)
         DCP[] = len(DCP) - 1
     return SMA10[]
+SMA10[]
    #This is not the finished product. DCP( Daily closing price) need to loop through all the data sets of the DCPes
    #figure out how to loop through, and keep the code clean. DCP[] = len(DCP) - 1 below the formula MIGHT work. Figure out if there is better alternative!!
  
