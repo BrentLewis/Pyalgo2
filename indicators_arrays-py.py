@@ -60,7 +60,7 @@ def Positive_Negative_Money_Flow(Tprice[]):
 PMF[]
 NMF[]
 
-def Money_Flow_Ratio(PMF[], NMF[]):
+def Money_Flow_Ratio(PMF[0], NMF[0]):
     b = PMF / NMF
     MoneyFR.append(b)
     return MoneyFR[]
@@ -92,6 +92,8 @@ def RS(PAGain[0], PALoss[0]):
 RS[]
 
 #Daily Closing Price
+def Daily_Closing_Price():
+    return DCP[]
 DCP[]
 
 #For that symbol, in that period of time
@@ -119,7 +121,6 @@ def Highest_High(x, Highest_H[0]):
 #Highest_H- Highest high for that look back period
 Highest_H[]
 
-RSI[]
 #Loswest Low for RSI in that period of time
 def Lowest_Low_RSI(RSI[], LLRSI[0]):
     Low = min(RSI) #smallest integer in RSI
@@ -156,9 +157,3 @@ def D(%k[0:2]):
         %D.append(g)
     return %D[]
 %D[]
-
-stochRSI[]
-
-stochastic[]
-
-SMA10[]

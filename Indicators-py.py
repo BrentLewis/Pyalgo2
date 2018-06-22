@@ -95,6 +95,7 @@ def RSI(RS[0:?, RSI[]):
     else:
         print('error in RSI')
     break 
+RSI[]
 
 #def ROC():
 
@@ -126,6 +127,7 @@ def StochRSI(RSI[], LLRSI[], HHRSI[]):
         else:
             print('error in StochRSI')
         break
+StochRSI[]
 
 #Simple moving average 10 day 
 def SMA10(DCP[0:9]):
@@ -135,6 +137,7 @@ def SMA10(DCP[0:9]):
         SMA10.append(f)
         DCP[] = len(DCP) - 1
     return SMA10[]
+SMA10[]
    #This is not the finished product. DCP( Daily closing price) need to loop through all the data sets of the DCPes
    #figure out how to loop through, and keep the code clean. DCP[] = len(DCP) - 1 below the formula MIGHT work. Figure out if there is better alternative!!
  
