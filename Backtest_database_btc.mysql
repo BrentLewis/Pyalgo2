@@ -1,0 +1,1726 @@
+CREATE DATABASE BTC ;
+
+CREATE TABLE EOS/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE ETH/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE ONT/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE ICX/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE XRP/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE TRX/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE BNB/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE BCC/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE XLM/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE THETA/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE VEN/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE LTC/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE NEO/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE ARN/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE IOTA/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE ZIL/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE XMR/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE QTUM/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE NPXS/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE QKC/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE ETC/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE ADA/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE TUSD/BTC;
+(	
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE NANO/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE WAVES/BTC;
+(	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+);
+
+CREATE TABLE ZRX/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE DASH/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE WAN/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE CMT/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE SNT/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE IOST/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE IOTX/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE OMG/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE MTL/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE STRAT/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE LUN/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE FTO/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE SKY/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE BQX/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE PPT/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE NAV/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE BCN/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE ELF/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE BAT/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE ZEC/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE ENG/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE XVG/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE MCO/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE BRD/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE RCN/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE EDO/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE QLC/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE HSR/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE OST/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE GNT/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE NXS/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE SUB/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE NCASH/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE VIB/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE AGI/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE BLZ/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE LOOM/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE WTC/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE SC/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE BCPT/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE POWR/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE AION/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE INS/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE AE/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE XEM/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE MANA/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE POA/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE BTG/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE WINGS/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE STORM/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE NEBL/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE YOYO/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE LSK/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE GAS/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE CLOAK/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE VIA/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE FUN/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE SNM/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE KNC/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE SALT/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE BTS/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE POE/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE ENJ/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE MTH/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE NULS/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE LINK/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE KMD/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE AST/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE AMB/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE DGD/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE LEND/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE SYS/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE FUEL/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE GXS/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE STEEM/BTC;
+(	
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE QSP/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE RPX/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE RLC/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE TRIG/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+);
+
+CREATE TABLE ARK/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE CDT/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE DLT/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE ADX/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE ZEN/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE RDN/BTC;
+(	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE GRS/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE REP/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE XZC/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE CDN/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE REQ/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE LRC/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE TNB/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE STORJ/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE MDA/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE WPR/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE WABI/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE PIVX/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE APPC/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE TNT/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE ICN/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE VIBE/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE SNGLS/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE DNT/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE BCD/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE CHAT/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE BNT/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE OAX/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);
+
+CREATE TABLE EVX/BTC;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+
+);

@@ -1,0 +1,253 @@
+create DATABASE USD;
+CREATE TABLE BTC/USD_PRICE;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+);
+CREATE TABLE BTC/USD_VOLUME;
+(
+);
+CREATE TABLE EOS/USD_PRICE;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+);
+CREATE TABLE EOS/USD_VOLUME;
+(
+);
+CREATE TABLE QTUM/USD_PRICE;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+);
+CREATE TABLE QTUM/USD_VOLUME;
+(
+);
+CREATE TABLE ETH/USD_PRICE;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+);
+CREATE TABLE ETH/USD_VOLUME;
+(
+);
+CREATE TABLE BNB/USD_PRICE;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+);
+CREATE TABLE BNB/USD_VOLUME;
+(
+);
+CREATE TABLE ONT/USD_PRICE;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+);
+CREATE TABLE ONT/USD_VOLUME;
+(
+);
+CREATE TABLE TUSD/USD_PRICE;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+);
+CREATE TABLE TUSD/USD_VOLUME;
+(
+);
+CREATE TABLE ETC/USD_PRICE;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+);
+CREATE TABLE ETC/USD_VOLUME;
+(
+);
+CREATE TABLE LTC/USD_PRICE;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+);
+CREATE TABLE LTC/USD_VOLUME;
+(
+);
+CREATE TABLE XRP/USD_PRICE;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+);
+CREATE TABLE XRP/USD_VOLUME;
+(
+);
+CREATE TABLE ADA/USD_PRICE;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+);
+CREATE TABLE ADA/USD_VOLUME;
+(
+);
+CREATE TABLE TRX/USD_PRICE;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+);
+CREATE TABLE TRX/USD_VOLUME;
+(
+);
+CREATE TABLE BCC/USD_PRICE;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+);
+CREATE TABLE BCC/USD_VOLUME;
+(
+);
+CREATE TABLE IOTA/USD_PRICE;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+);
+CREATE TABLE IOTA/USD_VOLUME;
+(
+);
+CREATE TABLE ICX/USD_PRICE;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+);
+CREATE TABLE ICX/USD_VOLUME;
+(
+);
+CREATE TABLE NEO/USD_PRICE;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+);
+CREATE TABLE NEO/USD_VOLUME;
+(
+);
+CREATE TABLE VEN/USD_PRICE;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+);
+CREATE TABLE VEN/USD_VOLUME;
+(
+);
+CREATE TABLE XLM/USD_PRICE;
+(
+	five_min INTEGER,
+	fifteen_min INTEGER,
+	thirty_min INTEGER,
+	one_hour INTEGER,
+	two_hour INTEGER,
+	four_hour INTEGER,
+	six_hour INTEGER,
+	twelve_hour INTEGER
+);
+CREATE TABLE XLM/USD_VOLUME;
+(
+);
