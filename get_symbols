@@ -1,0 +1,44 @@
+import pandas as pd
+from binance.client import Client 
+import pymysql as pymy
+
+client = Client('api_key', 'secret_key')
+api_key = ''
+secret_key = ''
+
+#for loop to access only symbols above a certain volume limit
+def ticker():
+    t_df = pd.DataFrame(client.get_all_tickers())
+    #isolate only the 'symbol' column in t_df    
+    tickers = t_df.loc[:, ['symbol']]
+
+    for i in tickers:
+        #pulls out market data for each symbol
+        tickers = pd.DataFrame(client.get_ticker())
+        #isolates the symbol and volume
+        tickers = tickers.loc[:, ['symbol', 'volume']]
+        #floats volume
+        tickers['volume'] = tickers.loc[:, ['volume']].astype(float)
+        #volume to int
+        tickers['volume'] = tickers.loc[:, ['volume']].astype(int)
+        #deletes all symbols > 20,000, returns only symbol
+        tickers = tickers.loc[tickers['volume'] >= 20000, 'symbol']        
+    
+    return tickers
+t_df = pd.DataFrame(ticker())
+
+#connects to mysql serve
+con= pymy.connect(host = 'localhost', user = 'root',
+                    passwd = '', db= 'binance')
+cursor = con.cursor()
+query = "SELECT symbol_col  FROM symbol"
+
+#pushes the list of symbols to a mysql database
+def itermysql(t_df):
+    sql = "INSERT into symbol(symbol_col) VALUES(%s)"
+    val = (t_df['symbol'])
+    cursor.execute(sql, val)
+    con.commit()
+    return print(cursor.rowcount, "record inserted.")
+t_df.apply(itermysql, axis = 1)
+con.close()
